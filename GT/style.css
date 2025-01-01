@@ -1,0 +1,260 @@
+body{
+    margin: 0px;
+   padding: 0px;
+   border: 2px red solid;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.background{
+    background-color:#f7f7f7 ;
+}
+
+#logo{
+    margin-left: 20%;
+
+}
+.navItems{
+    float: right;
+   margin-top: 40px;
+
+    margin-left: 50px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.navItems li{
+    float: left;
+    margin: 30px;
+    text-decoration: none;
+font-size: 17px;
+font-weight: bold;
+    list-style: none;
+    
+  
+}
+.navItems li :hover{
+    color: #ed2188;
+}
+.active{
+    color: #ed2188;
+}
+.navItems li a{
+    color: #635e87;
+}
+h1,h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#mainHead{
+    
+    font-size:90px;
+    color: #3d1557;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+button{
+    padding: 15px;
+    width: 270px ;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+#btnWork{
+    background-color: #ed2188; 
+    color: white;
+}
+
+#btnWork:hover{
+    background-color: white; 
+    color: #ed2188;
+    border: 1px #ed2188 solid;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+#btnContact{
+    background-color: white;
+     color: #3d1557;
+     border: 1px #3d1557 solid;
+}
+
+#btnContact:hover{
+    background-color: #3d1557;
+     color: white;
+     transition: 0.5s;
+     cursor: pointer;
+}
+footer{
+    
+  padding: 0px;
+    color: #ed2188;
+    text-align: center;
+    margin: 0px;
+}
+  
+
+
+.abtInfo{
+    background-image: url(imgs/2.png);
+    background-repeat: no-repeat;
+   
+    padding: 25px;
+}
+
+
+/*Projects*/
+#projTitle{
+    text-align: center;
+
+    color: #3d033d;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 30px;
+    border: 2px red solid;
+    
+}
+
+.project{
+    width:350px;
+    height: 300px;
+    border: 1px #3d033d solid;
+margin: 20px;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position-x: center;
+ position: relative;
+
+}
+
+.proTitle{
+    font-size: 30px;
+    color: #3D1557;
+}
+
+.projectInfo{
+
+padding: 5px;
+height: calc( 300px - 41px);
+padding-left: 10px;
+position: absolute;
+    overflow: hidden;
+    background-color: rgba(219, 218, 218, 0.842);
+ opacity: 0;
+    
+
+}
+.projectInfo:hover{
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.projLang{
+    width: 100%;
+    display: flex;
+    margin-top: 6px;
+    padding-left: 0px;
+}
+.projLang li{
+font-size: 17px;
+    margin-right: 15px;
+     color: #3F3D56;
+}
+.projDetails{
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: cursive;
+   
+}
+ 
+/*Contact Page*/
+#contact_form {
+    padding: 20px;
+    margin-left: 10PX;
+    flex: 5;
+}
+input{
+    border: none;
+    border: solid 1px grey;
+    border-radius: 5px;
+    padding: 15px;
+    width: 400px;
+    font-size: 20;
+}
+
+textarea{
+    border: none;
+    border: solid 1px grey;
+    border-radius: 5px;
+    padding: 15px;
+    width: 400px;
+    height: 200px;
+    font-size: 20;
+  
+}
+input[type="submit"]{
+    background-color: #ed2188;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 250px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left:15%;
+
+}
+#contact_info{
+    font-size: 20px;
+    margin-top: 65px;
+    margin-left: 10px;
+    width: 100%;
+    flex: 6;
+}
+#instagram{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100%;
+   
+    display: flex;
+    margin-bottom: 50px
+} 
+
+#igLink{
+    color: #3d1557;
+    text-decoration: none;
+    font-size: 30px;
+    padding-top:30px;
+    padding-left: 10px;
+
+
+}
+#linkedin_link{
+    color: #3d1557;
+    text-decoration: none;
+    font-size: 30px;
+    padding-top:30px;
+    padding-left: 10px;
+}
+a:hover{
+    text-decoration: none;
+    color: #ed2188;
+}
+#linkedin{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100%;
+  
+    display: flex;
+    margin-bottom: 50px
+}
